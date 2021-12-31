@@ -7,8 +7,8 @@ dna_string = 'CGCCATACTACCTACCTTAGACCCTCGCCGACTATTCCCCGCCGCAGGTAATATCCCCTAGCAATC
 
 rev_dna = list(dna_string[::-1])
 
-
 #print(rev_dna, '\n') test
+
 i = 0
 for i in range (len(rev_dna)):
     if rev_dna[i] == 'A':
